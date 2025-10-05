@@ -11,7 +11,6 @@ public class Reverse {
     }
     public static void main(String[] args) {
         int arr[] = {9,8,7,6,5};
-        int len = arr.length-1;
         for (int i = 0; i < arr.length / 2; i++) {
             int front = i;
             int last = arr.length - 1 - i;
